@@ -47,13 +47,13 @@ function SignInPage() {
     }
     return (
         <div>
-            <Box bg="blue.100" minH="100vh" display="flex" alignItems="center" justifyContent="center">
-                <Stack spacing={10} textAlign="center" color="white" maxW="400px" width="100%">
+            <Box bgImage={"url('https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"} bgPosition="bottom" minH="100vh" display="flex" alignItems="center" justifyContent="center">
+                <Stack backgroundColor={'whiteAlpha.100'} backdropFilter="blur(5px)" borderRadius={'3xl'} padding={'20'} spacing={10} textAlign="center" color="white" maxW="500px" width="100%">
                     <Flex direction={'column'}>
                         <Text as="h1" size="lg" fontWeight="bold" color={'black'}>
                             Welcome to
                         </Text>
-                        <Heading color={'blue.900'} size={'2xl'}>CareConnect</Heading>
+                        <Heading size={'2xl'}>CareConnect</Heading>
                     </Flex>
 
 
@@ -68,7 +68,7 @@ function SignInPage() {
                     </Button>
 
                     {/* Information text */}
-                    <Text fontSize="lg" mt={4} color={'blackAlpha.400'}>
+                    <Text fontSize="lg" mt={4} color={'white'}>
                         If this is your first time signing up, you'll be automatically redirected to a form
                         to fill up relevant details.
                     </Text>
