@@ -47,13 +47,14 @@ function SignInPage() {
     }
     return (
         <div>
-            <Box bgImage={"url('https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"} bgPosition="bottom" minH="100vh" display="flex" alignItems="center" justifyContent="center">
+            <Box  bgImage={"url('https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"} bgPosition="bottom" minH="100vh" display="flex" alignItems="center" justifyContent="center" flexDirection={'column'}>
                 <Stack backgroundColor={'whiteAlpha.100'} backdropFilter="blur(5px)" borderRadius={'3xl'} padding={'20'} spacing={10} textAlign="center" color="white" maxW="500px" width="100%">
                     <Flex direction={'column'}>
                         <Text as="h1" size="lg" fontWeight="bold" color={'black'}>
                             Welcome to
                         </Text>
-                        <Heading size={'2xl'}>CareConnect</Heading>
+                        <Heading size={'2xl'}>Unity Help</Heading>
+                        <Text color={'whiteAlpha.700'} paddingTop={'3'} fontSize={'sm'}>Making Community Support Simple and Accessible</Text>
                     </Flex>
 
 
@@ -68,11 +69,12 @@ function SignInPage() {
                     </Button>
 
                     {/* Information text */}
-                    <Text fontSize="lg" mt={4} color={'white'}>
-                        If this is your first time signing up, you'll be automatically redirected to a form
-                        to fill up relevant details.
-                    </Text>
+                    
                 </Stack>
+                <Text fontSize="md" mt={4} color={'white'} width={'550px'} textAlign={'center'} position={'fixed'} bottom={'0'} paddingBottom={'5'}>
+                        If this is your first time signing up, you'll be automatically redirected to a form
+                        to fill up relevant user details and role selection.
+                    </Text>
             </Box>
         </div>
     )
