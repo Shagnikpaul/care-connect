@@ -1,7 +1,8 @@
 
 # Unity Help
 
-A brief description of what this project does and who it's for
+A portal to post volunteer requests for both normal users and those who are seeking for volunteer work.
+
 
 
 
