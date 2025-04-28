@@ -68,6 +68,9 @@ Then paste the respective API Keys and config data in the `.env` file
 
 
 
+#### Before starting make sure your firebase project has auth and firestore service enabled.
+
+
 Now finally start the server
 
 ```bash
